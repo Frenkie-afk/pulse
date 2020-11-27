@@ -89,8 +89,9 @@
         hr {
             margin-top: 19px;
             margin: 19px 0 21px 0;
+            height: 1px;
+            border: 0;
             background-color: #e8e8e8;
-            border-bottom: none;
         }
         &__footer {
             display: flex;
