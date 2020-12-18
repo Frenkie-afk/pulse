@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .promo {
+        .container{
+            max-width: 850px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    .advantages {
+        .container{
+            max-width: 850px;
+        }
+    }
+    .consultation {
+        .container {
+            max-width: 850px;
+        }
+        .title{
+            &_left {
+                font-size: 34px;
+            }
+        }
+    }   
+    .catalog {
+        .container {
+            max-width: 900px;
+        }
+        .catalog-item {
+            width: 280px;
+            padding: 18px 18px 22px 18px;
+            &__price {
+                font-size: 17px;
+            }
+        }
+        
+    }
+}
+  
