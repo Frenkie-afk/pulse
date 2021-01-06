@@ -116,7 +116,7 @@
         &__content {
             width: 50%;
             margin-right: 0px;
-            transform: translateX(-100%);
+            transform: translateX(-110%);
             transition: 0.5s all; 
             &_active {
                 transform: translateX(0%);
@@ -124,13 +124,14 @@
             }   
         }
         &__slide {
+            position: relative;
             width: 50%;
             padding-right: 20px;
             padding-left: 19px;
             transition: 0.5s all;
             &_active {
                 transform: translateX(-100%);
-                margin-right: 0px;   
+                margin-right: 0px;
             }
         }
         &__list {
@@ -159,15 +160,16 @@
         }
         &__back {
             position: absolute;
+            display: block;
             bottom: 0;
             left: 50%;
             transform: translateX(calc(-50% - 19px));
-            display: block;
             color: $main-color;
             font-size: 14px;
             font-weight: 500;
             text-decoration: underline;
             text-transform: uppercase;
+            overflow: hidden;
             &:hover {
                 color: $main-color;
             }
